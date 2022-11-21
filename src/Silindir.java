@@ -15,9 +15,9 @@ public class Silindir extends Daire {
     }
 
     public double getHacim() {
-        return getAlan() * yukseklik;//Burada ata sınıfın Alan
-        //metodunu nasıl kullanacağız ? Override ettiğimiz
-        //Silindir Alan metodunu kullanıyor burada..
+        return super.getAlan() * yukseklik;
+        //Ata sınıfın(Daire) alan metodunu çağırmak için
+        //"super" keyword unu kullanıyoruz.
     }
 
     @Override
