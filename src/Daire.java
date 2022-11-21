@@ -25,4 +25,5 @@ public class Daire {
     public double getAlan(){
         return yaricap*yaricap*Math.PI;
     }
+
 }

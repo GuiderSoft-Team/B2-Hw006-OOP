@@ -21,12 +21,17 @@ public class Silindir extends Daire{
             this.yukseklik = yukseklik;
         }
     }
+
+
+
     public double getHacim(){
-        return getAlan()*yukseklik;
+
+        return super.getAlan()*yukseklik;
     }
 
     @Override
     public double getAlan() {
+
         return 2*yaricap*yaricap*Math.PI+2*Math.PI*yaricap*yukseklik;
     }
 }
