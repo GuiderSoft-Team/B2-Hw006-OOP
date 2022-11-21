@@ -1,5 +1,5 @@
 public class Silindir extends Daire{
-    double yukseklik=0;
+    private double yukseklik=0;
 
     public Silindir(double yaricap, double yukseklik) {
         super(yaricap);
