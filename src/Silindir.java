@@ -18,7 +18,7 @@ public class Silindir extends Daire {
 
     @Override
     public double getAlan() {
-        return Math.round((2 * super.getAlan() + 2 * Math.PI* yaricap * yukseklik)*100.0)/100.0;
+        return Math.round((2 * super.getAlan() + 2 * Math.PI*getYaricap()* yukseklik)*100.0)/100.0;
 
     }
 
