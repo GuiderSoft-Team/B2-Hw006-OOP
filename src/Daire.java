@@ -1,5 +1,5 @@
 public class Daire {
-    double yaricap;
+    private double yaricap;
 
     public Daire(double yaricap) {
         setYaricap(yaricap);
